@@ -1,0 +1,203 @@
+body {
+    background-color: black;
+    background-image: url(./images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1600px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITY CLASSES */
+.navbar-brand,
+h3 {
+    font-family: 'Roboto+Slab', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Roboto+Slab', serif;
+    font-weight: 800;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+#hero {
+    margin-top: 3rem;
+}
+
+#statements {
+    margin-top: 13rem;
+    color: black;
+}
+
+#cards {
+    margin-top: 95vh;
+}
+
+#carousel {
+    margin-top: 8rem;
+    background-image: url(./images/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8rem;
+}
+
+/* TOP DOWN STYLING */
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.nav-btn {
+    padding: 0.1rem 2.5rem;
+}
+
+.title-span {
+    color: rgb(212, 212, 212);
+    font-weight: 300;
+    line-height: 1;
+}
+
+.cta {
+    margin-top: 2rem;
+}
+
+.arrow {
+    width: 6rem;
+    position: absolute;
+    translate: -50px 17px;
+    rotate: -20deg;
+}
+
+.cta>a {
+    margin-left: 3rem;
+}
+
+#statements,
+.card {
+    background-color: rgba(123, 123, 123, 0.8);
+
+}
+
+.row-padding {
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+}
+
+.statement-icon {
+    width: 2.5rem;
+    padding-bottom: 2em;
+}
+
+.statement-border {
+    border-left: 7px rgb(73, 73, 73) solid;
+}
+
+.statement-border:last-of-type {
+    border-right: 7px rgb(73, 73, 73) solid;
+}
+
+.card {
+    max-width: 350px;
+    padding: 2rem 1rem 0;
+    min-height: 520px;
+}
+
+.card-description {
+    line-height: 0.9;
+}
+
+.card:hover {
+    background-color: rgb(73, 73, 73);
+    border-color: rgb(54, 0, 90);
+    box-shadow: 5px 7px 15px rgb(56, 56, 56);
+}
+
+.btn-styler {
+    background: linear-gradient(rgb(120, 0, 200), rgb(83, 0, 138));
+    color: #fff;
+}
+
+.btn-styler:hover {
+    background: linear-gradient(rgb(95, 0, 158), rgb(54, 0, 90));
+    color: #fff;
+}
+
+.carousel-size {
+    max-height: 45vw;
+    max-width: 45vw;
+    min-height: 450px;
+    min-width: 450px;
+    border-radius: 4rem;
+    opacity: 0.9;
+
+}
+
+.testimonial {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 4rem;
+    background-color: rgba(130, 130, 130, 0.779);
+    border-radius: 1rem;
+    padding: 1.25rem 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+footer {
+    padding: 2rem 4rem;
+}
+
+svg {
+    margin-top: 2rem;
+}
+
+@media(max-width: 1200px) {
+    #cards {
+        margin-top: 80vh;
+    }
+
+    .card {
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width: 767px) {
+    .statement-border:nth-child(2) {
+        border-right: 7px rgb(73, 73, 73) solid;
+    }
+
+    #cards {
+        margin-top: 30vh;
+    }
+}
+
+@media(max-width: 574px) {
+    .statement-border {
+        border-right: 7px rgb(73, 73, 73) solid;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    body {
+        background-position: center;
+    }
+
+    .arrow {
+        display: none;
+    }
+}
